@@ -33,13 +33,6 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/pass"
-            style="@style/edit_text"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:textAlignment="center" />
-
-        <EditText
             android:id="@+id/enroll"
             style="@style/edit_text"
             android:hint="User id"
@@ -47,11 +40,17 @@
             android:singleLine="false"
             android:textAlignment="center" />
 
+        <EditText
+            android:id="@+id/pass"
+            style="@style/edit_text"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
         <Button
-            android:id="@+id/Sign in"
+            android:id="@+id/Sign_In"
             style="@style/button"
-            tAllCaps="fal"Sign In"
-            android:text="I"
-           />
+            android:text="Sign In"
+            android:textAllCaps="false" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">doctR</string>
     <string name="user_id">User id</string>
+    <string name="todo">TODO</string>
 </resources>
